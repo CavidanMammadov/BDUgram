@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BDugram.Core.Repositories
 {
-    public interface ICategoryRepository : İGenericRepository<Category >
+    public interface ICategoryRepository : IGenericRepository<Category >
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BDugram.Core.Repositories
 {
-    public interface  İGenericRepository<T> where T :BaseEntity ,new()
+    public interface  IGenericRepository<T> where T :BaseEntity ,new()
     {
         IQueryable<T> GetAll();
         Task<T>  GetByIdAsync(int id);

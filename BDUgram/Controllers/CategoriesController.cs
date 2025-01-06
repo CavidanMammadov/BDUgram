@@ -1,5 +1,6 @@
 ﻿using BDugram.Core.Entities;
 using BDugram.Core.Repositories;
+using BDUgram.BL.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,16 @@ namespace BDUgram.Controllers
     [ApiController]
     public class CategoriesController(ICategoryRepository _repo) : ControllerBase
     {
+        [HttpGet("hash")]
+        public async Task<IActionResult> Hash(string s)
+        {
+            return Ok(HashHelper.HashPassword(s));
+        }[HttpGet("HashIsTrue")]
+        public async Task<IActionResult> HashIsTrue(string s , string password)
+        {
+            return Ok(HashHelper.VerifyHashedPassword(s ,password));
+        }
+
         // GET: api/<CategoriesController>
         [HttpGet]
         public async Task<IActionResult> Get()

@@ -149,3 +149,7 @@ C:\Users\user\source\repos\BDUgram\BDUgram\obj\Debug\net8.0\BDUgram.genruntimeco
 C:\Users\user\source\repos\BDUgram\BDUgram\obj\Debug\net8.0\ref\BDUgram.dll
 C:\Users\user\source\repos\BDUgram\BDUgram\bin\Debug\net8.0\BDUgram.BL.dll
 C:\Users\user\source\repos\BDUgram\BDUgram\bin\Debug\net8.0\BDUgram.BL.pdb
+C:\Users\user\source\repos\BDUgram\BDUgram\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\user\source\repos\BDUgram\BDUgram\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\user\source\repos\BDUgram\BDUgram\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\user\source\repos\BDUgram\BDUgram\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

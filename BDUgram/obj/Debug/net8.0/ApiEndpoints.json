@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "BDUgram.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BDUgram.BL.DTOs.UserDTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BDUgram.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BDUgram.BL.DTOs.UserDTOs.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BDUgram.Controllers.CategoriesController",
     "Method": "Get",
     "RelativePath": "api/Categories",
@@ -99,5 +131,42 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "BDUgram.Controllers.CategoriesController",
+    "Method": "Hash",
+    "RelativePath": "api/Categories/hash",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "s",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BDUgram.Controllers.CategoriesController",
+    "Method": "HashIsTrue",
+    "RelativePath": "api/Categories/HashIsTrue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "s",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BDUgram.DAL.Repositories
 {
-    public class GenericRepository<T>(BdugramDbContext _context) : İGenericRepository<T> where T : BaseEntity, new()
+    public class GenericRepository<T>(BdugramDbContext _context) : IGenericRepository<T> where T : BaseEntity, new()
     {
         protected DbSet<T> Table => _context.Set<T>(); 
         public async Task AddAsync(T entity)
