@@ -19,7 +19,7 @@ namespace BDugram.Core.Entities
         public int Role { get; set; } = 2;
         public bool IsBanned { get; set; }
         public DateTime?  UnlockTime { get; set; }
-        public  bool IsRegistered { get; set; }
+        public  bool IsRegistered { get; set; } = false;
        
 
     }

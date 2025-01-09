@@ -18,3 +18,23 @@ C:\Users\user\source\repos\BDUgram\BDUgram.BL\obj\Debug\net8.0\refint\BDUgram.BL
 C:\Users\user\source\repos\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.pdb
 C:\Users\user\source\repos\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.genruntimeconfig.cache
 C:\Users\user\source\repos\BDUgram\BDUgram.BL\obj\Debug\net8.0\ref\BDUgram.BL.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\bin\Debug\net8.0\BDUgram.BL.deps.json
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\bin\Debug\net8.0\BDUgram.BL.runtimeconfig.json
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\bin\Debug\net8.0\BDUgram.BL.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\bin\Debug\net8.0\BDUgram.BL.pdb
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\bin\Debug\net8.0\BDugram.Core.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\bin\Debug\net8.0\BDUgram.DAL.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\bin\Debug\net8.0\BDUgram.DAL.pdb
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\bin\Debug\net8.0\BDugram.Core.pdb
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.csproj.AssemblyReference.cache
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.AssemblyInfoInputs.cache
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.AssemblyInfo.cs
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.csproj.CoreCompileInputs.cache
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.sourcelink.json
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.csproj.CopyComplete
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\refint\BDUgram.BL.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.pdb
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.genruntimeconfig.cache
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\ref\BDUgram.BL.dll

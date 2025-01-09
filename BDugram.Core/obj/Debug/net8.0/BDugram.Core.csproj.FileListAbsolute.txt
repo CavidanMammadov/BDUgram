@@ -13,3 +13,18 @@ C:\Users\user\source\repos\BDUgram\BDugram.Core\obj\Debug\net8.0\refint\BDugram.
 C:\Users\user\source\repos\BDUgram\BDugram.Core\obj\Debug\net8.0\BDugram.Core.pdb
 C:\Users\user\source\repos\BDUgram\BDugram.Core\obj\Debug\net8.0\BDugram.Core.genruntimeconfig.cache
 C:\Users\user\source\repos\BDUgram\BDugram.Core\obj\Debug\net8.0\ref\BDugram.Core.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\bin\Debug\net8.0\BDugram.Core.deps.json
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\bin\Debug\net8.0\BDugram.Core.runtimeconfig.json
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\bin\Debug\net8.0\BDugram.Core.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\bin\Debug\net8.0\BDugram.Core.pdb
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\obj\Debug\net8.0\BDugram.Core.csproj.AssemblyReference.cache
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\obj\Debug\net8.0\BDugram.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\obj\Debug\net8.0\BDugram.Core.AssemblyInfoInputs.cache
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\obj\Debug\net8.0\BDugram.Core.AssemblyInfo.cs
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\obj\Debug\net8.0\BDugram.Core.csproj.CoreCompileInputs.cache
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\obj\Debug\net8.0\BDugram.Core.sourcelink.json
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\obj\Debug\net8.0\BDugram.Core.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\obj\Debug\net8.0\refint\BDugram.Core.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\obj\Debug\net8.0\BDugram.Core.pdb
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\obj\Debug\net8.0\BDugram.Core.genruntimeconfig.cache
+C:\Users\ll novbe\Desktop\BDUgram\BDugram.Core\obj\Debug\net8.0\ref\BDugram.Core.dll

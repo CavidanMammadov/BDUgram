@@ -6,6 +6,7 @@ using BDUgram.BL.Exceptions.Common;
 using BDUgram.BL.Helpers;
 using BDUgram.BL.Services.interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,7 @@ using System.Threading.Tasks;
 
 namespace BDUgram.BL.Services.implements
 {
-    public class AuthService(IUserRepository _repo, IMapper _mapper) : IAuthService
+    public class AuthService(IUserRepository _repo, IMapper _mapper , IMemoryCache _cache) : IAuthService
     {
         public async Task<string> LoginAsync(LoginDto dto)
         {
@@ -71,6 +72,18 @@ namespace BDUgram.BL.Services.implements
             user = _mapper.Map<User>(dto);
             await _repo.AddAsync(user);
             await _repo.SaveAsync();
+        }
+
+        public Task<int> SendVerificationEmailAsync(string email)
+        {
+            var code = _cache.Get<int>(email);
+            if(data != 0)
+            throw new ExistException("Email artiq gonderilib ");
+            Random r = new Random();
+            int code = r.Next(100000 , 999999);
+            _cache.Set(email, code);
+            return code;
+            
         }
     }
 }

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BDUgram.DAL.Migrations
 {
     [DbContext(typeof(BdugramDbContext))]
-    [Migration("20241231152358_add-migration AddedUserAndCategoryTable")]
-    partial class addmigrationAddedUserAndCategoryTable
+    [Migration("20250109103755_AddRegisteredTable")]
+    partial class AddRegisteredTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -81,12 +81,31 @@ namespace BDUgram.DAL.Migrations
                         .HasMaxLength(48)
                         .HasColumnType("nvarchar(48)");
 
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsBanned")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
+
+                    b.Property<bool>("IsRegistered")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PasswordHash")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Role")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UnlockTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime>("UpdatedTime")
                         .HasColumnType("datetime2");
@@ -96,7 +115,7 @@ namespace BDUgram.DAL.Migrations
                         .HasMaxLength(32)
                         .HasColumnType("nvarchar(32)");
 
-                    b.Property<bool>("isFemale")
+                    b.Property<bool>("isMale")
                         .HasColumnType("bit");
 
                     b.HasKey("Id");

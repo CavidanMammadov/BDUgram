@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace BDUgram.DAL.Migrations
 {
     /// <inheritdoc />
-    public partial class addmigrationAddedUserAndCategoryTable : Migration
+    public partial class addedAllTables : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -36,9 +36,15 @@ namespace BDUgram.DAL.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     UserName = table.Column<string>(type: "nvarchar(32)", maxLength: 32, nullable: false),
                     FullName = table.Column<string>(type: "nvarchar(48)", maxLength: 48, nullable: false),
-                    isFemale = table.Column<bool>(type: "bit", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(48)", maxLength: 48, nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Image = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    isMale = table.Column<bool>(type: "bit", nullable: false),
                     PasswordHash = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Role = table.Column<int>(type: "int", nullable: false),
+                    IsBanned = table.Column<bool>(type: "bit", nullable: false),
+                    UnlockTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    IsRegistered = table.Column<bool>(type: "bit", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false),
                     CreatedTime = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedTime = table.Column<DateTime>(type: "datetime2", nullable: false)

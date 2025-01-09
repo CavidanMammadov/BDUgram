@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BDUgram.DAL.Migrations
 {
     [DbContext(typeof(BdugramDbContext))]
-    [Migration("20241231153355_RoleAndIsbannedProps")]
-    partial class RoleAndIsbannedProps
+    [Migration("20250109103248_addedAllTables")]
+    partial class addedAllTables
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -81,11 +81,21 @@ namespace BDUgram.DAL.Migrations
                         .HasMaxLength(48)
                         .HasColumnType("nvarchar(48)");
 
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsBanned")
                         .HasColumnType("bit");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
+
+                    b.Property<bool>("IsRegistered")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PasswordHash")
                         .IsRequired()
@@ -105,7 +115,7 @@ namespace BDUgram.DAL.Migrations
                         .HasMaxLength(32)
                         .HasColumnType("nvarchar(32)");
 
-                    b.Property<bool>("isFemale")
+                    b.Property<bool>("isMale")
                         .HasColumnType("bit");
 
                     b.HasKey("Id");

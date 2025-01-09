@@ -16,3 +16,21 @@ C:\Users\user\source\repos\BDUgram\BDUgram.DAL\obj\Debug\net8.0\refint\BDUgram.D
 C:\Users\user\source\repos\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.pdb
 C:\Users\user\source\repos\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.genruntimeconfig.cache
 C:\Users\user\source\repos\BDUgram\BDUgram.DAL\obj\Debug\net8.0\ref\BDUgram.DAL.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\bin\Debug\net8.0\BDUgram.DAL.deps.json
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\bin\Debug\net8.0\BDUgram.DAL.runtimeconfig.json
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\bin\Debug\net8.0\BDUgram.DAL.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\bin\Debug\net8.0\BDUgram.DAL.pdb
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\bin\Debug\net8.0\BDugram.Core.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\bin\Debug\net8.0\BDugram.Core.pdb
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.csproj.AssemblyReference.cache
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.AssemblyInfoInputs.cache
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.AssemblyInfo.cs
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.sourcelink.json
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.csproj.CopyComplete
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\refint\BDUgram.DAL.dll
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.pdb
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.genruntimeconfig.cache
+C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\ref\BDUgram.DAL.dll
