@@ -35,7 +35,7 @@ namespace BDUgram.BL.Services.implements
                 ];
             SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8
                 .GetBytes("46e52cf4-5a0f-4091-bf23-95dfde630a43"));
-            SigningCredentials cred = new SigningCredentials ( key , SecurityAlgorithms.HmacSha256)
+            SigningCredentials cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
             JwtSecurityToken jwtSec = new JwtSecurityToken(
                 issuer: "https://localhost:7087",
                 audience: "https://localhost:7087",

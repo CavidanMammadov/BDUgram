@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\BDUgram\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A4FF96F5-3A17-4CC8-A8AB-64F348791724}|BDUgram\\BDUgram.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4FF96F5-3A17-4CC8-A8AB-64F348791724}|BDUgram\\BDUgram.csproj|solutionrelative:bdugram\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4FF96F5-3A17-4CC8-A8AB-64F348791724}|BDUgram\\BDUgram.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A4FF96F5-3A17-4CC8-A8AB-64F348791724}|BDUgram\\BDUgram.csproj|solutionrelative:bdugram\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{91C6DB60-BC95-4FA4-A59A-70C9AC079321}|BDUgram.BL\\BDUgram.BL.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram.bl\\services\\implements\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91C6DB60-BC95-4FA4-A59A-70C9AC079321}|BDUgram.BL\\BDUgram.BL.csproj|solutionrelative:bdugram.bl\\services\\implements\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D89F271-9B89-4F0D-826D-7FE84C8F085F}|BDUgram.DAL\\BDUgram.DAL.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram.dal\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D89F271-9B89-4F0D-826D-7FE84C8F085F}|BDUgram.DAL\\BDUgram.DAL.csproj|solutionrelative:bdugram.dal\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91C6DB60-BC95-4FA4-A59A-70C9AC079321}|BDUgram.BL\\BDUgram.BL.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram.bl\\services\\implements\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91C6DB60-BC95-4FA4-A59A-70C9AC079321}|BDUgram.BL\\BDUgram.BL.csproj|solutionrelative:bdugram.bl\\services\\implements\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4FF96F5-3A17-4CC8-A8AB-64F348791724}|BDUgram\\BDUgram.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4FF96F5-3A17-4CC8-A8AB-64F348791724}|BDUgram\\BDUgram.csproj|solutionrelative:bdugram\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91C6DB60-BC95-4FA4-A59A-70C9AC079321}|BDUgram.BL\\BDUgram.BL.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram.bl\\dtos\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91C6DB60-BC95-4FA4-A59A-70C9AC079321}|BDUgram.BL\\BDUgram.BL.csproj|solutionrelative:bdugram.bl\\dtos\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4FF96F5-3A17-4CC8-A8AB-64F348791724}|BDUgram\\BDUgram.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A4FF96F5-3A17-4CC8-A8AB-64F348791724}|BDUgram\\BDUgram.csproj|solutionrelative:bdugram\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4FF96F5-3A17-4CC8-A8AB-64F348791724}|BDUgram\\BDUgram.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4FF96F5-3A17-4CC8-A8AB-64F348791724}|BDUgram\\BDUgram.csproj|solutionrelative:bdugram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91C6DB60-BC95-4FA4-A59A-70C9AC079321}|BDUgram.BL\\BDUgram.BL.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91C6DB60-BC95-4FA4-A59A-70C9AC079321}|BDUgram.BL\\BDUgram.BL.csproj|solutionrelative:bdugram.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4FF96F5-3A17-4CC8-A8AB-64F348791724}|BDUgram\\BDUgram.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4FF96F5-3A17-4CC8-A8AB-64F348791724}|BDUgram\\BDUgram.csproj|solutionrelative:bdugram\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4FF96F5-3A17-4CC8-A8AB-64F348791724}|BDUgram\\BDUgram.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A4FF96F5-3A17-4CC8-A8AB-64F348791724}|BDUgram\\BDUgram.csproj|solutionrelative:bdugram\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91C6DB60-BC95-4FA4-A59A-70C9AC079321}|BDUgram.BL\\BDUgram.BL.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram.bl\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8CDF839F-2597-4066-93D9-F8F2881BEB50}|BDugram.Core\\BDugram.Core.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CDF839F-2597-4066-93D9-F8F2881BEB50}|BDugram.Core\\BDugram.Core.csproj|solutionrelative:bdugram.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91C6DB60-BC95-4FA4-A59A-70C9AC079321}|BDUgram.BL\\BDUgram.BL.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram.bl\\validators\\usercreatevalidatordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91C6DB60-BC95-4FA4-A59A-70C9AC079321}|BDUgram.BL\\BDUgram.BL.csproj|solutionrelative:bdugram.bl\\validators\\usercreatevalidatordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91C6DB60-BC95-4FA4-A59A-70C9AC079321}|BDUgram.BL\\BDUgram.BL.csproj|c:\\users\\user\\source\\repos\\bdugram\\bdugram.bl\\services\\implements\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91C6DB60-BC95-4FA4-A59A-70C9AC079321}|BDUgram.BL\\BDUgram.BL.csproj|solutionrelative:bdugram.bl\\services\\implements\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,111 +50,113 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "BDUgram\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\ServiceRegistration.cs",
+              "RelativeToolTip": "BDUgram\\ServiceRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T13:33:30.576Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.DAL\\Configuration\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "BDUgram.DAL\\Configuration\\UserConfiguration.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.DAL\\Configuration\\UserConfiguration.cs",
-              "RelativeToolTip": "BDUgram.DAL\\Configuration\\UserConfiguration.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T06:39:51.234Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "BDUgram\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "BDUgram\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA2AAAA",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\Services\\implements\\AuthService.cs",
+              "RelativeDocumentMoniker": "BDUgram.BL\\Services\\implements\\AuthService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\Services\\implements\\AuthService.cs",
+              "RelativeToolTip": "BDUgram.BL\\Services\\implements\\AuthService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAmwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T06:35:59.753Z"
+              "WhenOpened": "2025-01-08T14:30:33.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BDUgram\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\appsettings.Development.json",
+              "RelativeToolTip": "BDUgram\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-08T14:14:46.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\appsettings.json",
+              "RelativeDocumentMoniker": "BDUgram\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\appsettings.json",
+              "RelativeToolTip": "BDUgram\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-08T14:14:41.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BDUgram\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BDUgram\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-08T14:14:34.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\Program.cs",
               "RelativeDocumentMoniker": "BDUgram\\Program.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\Program.cs",
               "RelativeToolTip": "BDUgram\\Program.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB4AAAAtAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABsAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T06:33:09.464Z"
+              "WhenOpened": "2025-01-08T14:08:18.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "BDUgram.BL\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\ServiceRegistration.cs",
-              "RelativeToolTip": "BDUgram.BL\\ServiceRegistration.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T06:20:24.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "BDUgram\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "BDUgram\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T06:18:48.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\Profiles\\UserProfile.cs",
-              "RelativeDocumentMoniker": "BDUgram.BL\\Profiles\\UserProfile.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\Profiles\\UserProfile.cs",
-              "RelativeToolTip": "BDUgram.BL\\Profiles\\UserProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T06:14:12.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDugram.Core\\Entities\\User.cs",
               "RelativeDocumentMoniker": "BDugram.Core\\Entities\\User.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDugram.Core\\Entities\\User.cs",
               "RelativeToolTip": "BDugram.Core\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAWwBYAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T06:13:34.077Z"
+              "WhenOpened": "2025-01-08T08:02:37.988Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UserCreateValidatorDto.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\Validators\\UserCreateValidatorDto.cs",
-              "RelativeDocumentMoniker": "BDUgram.BL\\Validators\\UserCreateValidatorDto.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\Validators\\UserCreateValidatorDto.cs",
-              "RelativeToolTip": "BDUgram.BL\\Validators\\UserCreateValidatorDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\Profiles\\UserProfile.cs",
+              "RelativeDocumentMoniker": "BDUgram.BL\\Profiles\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\Profiles\\UserProfile.cs",
+              "RelativeToolTip": "BDUgram.BL\\Profiles\\UserProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T06:13:10.311Z"
+              "WhenOpened": "2025-01-08T08:02:17.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\Services\\implements\\UserService.cs",
               "RelativeDocumentMoniker": "BDUgram.BL\\Services\\implements\\UserService.cs",
@@ -162,20 +164,19 @@
               "RelativeToolTip": "BDUgram.BL\\Services\\implements\\UserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T06:12:58.387Z"
+              "WhenOpened": "2025-01-08T08:00:48.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\Services\\implements\\AuthService.cs",
-              "RelativeDocumentMoniker": "BDUgram.BL\\Services\\implements\\AuthService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\Services\\implements\\AuthService.cs",
-              "RelativeToolTip": "BDUgram.BL\\Services\\implements\\AuthService.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAwDEAAAAuAAAA",
+              "DocumentIndex": 4,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\DTOs\\Options\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "BDUgram.BL\\DTOs\\Options\\JwtOptions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram.BL\\DTOs\\Options\\JwtOptions.cs",
+              "RelativeToolTip": "BDUgram.BL\\DTOs\\Options\\JwtOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T06:06:38.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T13:32:55.154Z"
             }
           ]
         }

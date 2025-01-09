@@ -3,11 +3,7 @@ using BDUgram.BL.Services.interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using FluentValidation;
 using FluentValidation.AspNetCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace BDUgram.BL
 {
@@ -27,7 +23,7 @@ namespace BDUgram.BL
             return services;
               
         }
-        public static IServiceCollection AddAutoMapper(this IServiceCollection services)
+        public static IServiceCollection AddMapper(this IServiceCollection services)
         {
             services.AddAutoMapper(typeof(ServiceRegistration));
             return services;

@@ -3,6 +3,7 @@ using BDUgram.BL;
 using BDUgram.DAL;
 using BDUgram.DAL.Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace BDUgram
 {
@@ -24,11 +25,12 @@ namespace BDUgram
                     opt.UseSqlServer(
                         builder.Configuration.GetConnectionString("MSSql"));
                 });
+            builder.Services.AddAuth(builder.Configuration);
             builder.Services.AddHttpContextAccessor();
             builder.Services.AddRepositories();
             builder.Services.AddServices();
             builder.Services.AddFluentValidation();
-            builder.Services.AddAutoMapper();
+            builder.Services.AddMapper();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -39,7 +41,7 @@ namespace BDUgram
             }
 
             app.UseHttpsRedirection();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
 

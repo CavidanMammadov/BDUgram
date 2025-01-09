@@ -1,6 +1,7 @@
 ﻿using BDugram.Core.Entities;
 using BDugram.Core.Repositories;
 using BDUgram.BL.Helpers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -24,6 +25,7 @@ namespace BDUgram.Controllers
 
         // GET: api/<CategoriesController>
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> Get()
         {
             return Ok( await _repo.GetAll().ToListAsync());
