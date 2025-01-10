@@ -72,17 +72,28 @@ namespace BDUgram.BL.Services.implements
             user = _mapper.Map<User>(dto);
             await _repo.AddAsync(user);
             await _repo.SaveAsync();
+            SendVerificationEmailAsync(user.Email);
         }
 
-        public Task<int> SendVerificationEmailAsync(string email)
+        public async Task<int> SendVerificationEmailAsync(string email)
         {
-            var code = _cache.Get<int>(email);
-            if(data != 0)
-            throw new ExistException("Email artiq gonderilib ");
+
+            if (!_cache.TryGetValue<int>(email, out int result))
+                throw new ExistException("Email artiq gonderilib ");
+            if( await _repo.IsExistAsync(z => z.Email  == email))   
+
             Random r = new Random();
             int code = r.Next(100000 , 999999);
-            _cache.Set(email, code);
+            //sendEmail
+
+            _cache.Set(email, code, TimeSpan.FromMinutes(15));
             return code;
+            
+        }
+        public Task<bool> VerifyAccount(string email, int code)
+        {
+            if(!_cache.TryGetValue<int>(email , out int result))
+            throw new NotFoundException("Daxil etdiyiniz email yanlisdir");
             
         }
     }

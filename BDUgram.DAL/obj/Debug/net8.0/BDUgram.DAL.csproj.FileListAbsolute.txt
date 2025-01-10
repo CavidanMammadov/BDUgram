@@ -34,3 +34,12 @@ C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\refint\BDUgram.DA
 C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.pdb
 C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.genruntimeconfig.cache
 C:\Users\ll novbe\Desktop\BDUgram\BDUgram.DAL\obj\Debug\net8.0\ref\BDUgram.DAL.dll
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.AssemblyInfo.cs
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.sourcelink.json
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.dll
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\refint\BDUgram.DAL.dll
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.pdb

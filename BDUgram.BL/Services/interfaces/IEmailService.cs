@@ -8,7 +8,7 @@ namespace BDUgram.BL.Services.interfaces
 {
     public interface IEmailService
     {
-        public void EmailConfirmation(string emailadress, string name);
+        public void SendEmail(string emailadress, string name);
 
     }
 }

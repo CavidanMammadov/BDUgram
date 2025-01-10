@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram\\BDUgram.csproj": {}
+    "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram\\BDUgram.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram.BL\\BDUgram.BL.csproj": {
+    "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram.BL\\BDUgram.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram.BL\\BDUgram.BL.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram.BL\\BDUgram.BL.csproj",
         "projectName": "BDUgram.BL",
-        "projectPath": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram.BL\\BDUgram.BL.csproj",
-        "packagesPath": "C:\\Users\\ll novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram.BL\\obj\\",
+        "projectPath": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram.BL\\BDUgram.BL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram.BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ll novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram.DAL\\BDUgram.DAL.csproj": {
-                "projectPath": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram.DAL\\BDUgram.DAL.csproj"
+              "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram.DAL\\BDUgram.DAL.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram.DAL\\BDUgram.DAL.csproj"
               }
             }
           }
@@ -38,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -93,21 +99,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDugram.Core\\BDugram.Core.csproj": {
+    "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDugram.Core\\BDugram.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDugram.Core\\BDugram.Core.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDugram.Core\\BDugram.Core.csproj",
         "projectName": "BDugram.Core",
-        "projectPath": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDugram.Core\\BDugram.Core.csproj",
-        "packagesPath": "C:\\Users\\ll novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDugram.Core\\obj\\",
+        "projectPath": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDugram.Core\\BDugram.Core.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDugram.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ll novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -115,6 +121,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -127,6 +134,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -178,21 +190,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram.DAL\\BDUgram.DAL.csproj": {
+    "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram.DAL\\BDUgram.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram.DAL\\BDUgram.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram.DAL\\BDUgram.DAL.csproj",
         "projectName": "BDUgram.DAL",
-        "projectPath": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram.DAL\\BDUgram.DAL.csproj",
-        "packagesPath": "C:\\Users\\ll novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram.DAL\\obj\\",
+        "projectPath": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram.DAL\\BDUgram.DAL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ll novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -200,14 +212,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDugram.Core\\BDugram.Core.csproj": {
-                "projectPath": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDugram.Core\\BDugram.Core.csproj"
+              "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDugram.Core\\BDugram.Core.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDugram.Core\\BDugram.Core.csproj"
               }
             }
           }
@@ -216,6 +229,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -271,21 +289,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram\\BDUgram.csproj": {
+    "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram\\BDUgram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram\\BDUgram.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram\\BDUgram.csproj",
         "projectName": "BDUgram",
-        "projectPath": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram\\BDUgram.csproj",
-        "packagesPath": "C:\\Users\\ll novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram\\obj\\",
+        "projectPath": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram\\BDUgram.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ll novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -293,20 +311,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram.BL\\BDUgram.BL.csproj": {
-                "projectPath": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram.BL\\BDUgram.BL.csproj"
+              "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram.BL\\BDUgram.BL.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram.BL\\BDUgram.BL.csproj"
               },
-              "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDugram.Core\\BDugram.Core.csproj": {
-                "projectPath": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDugram.Core\\BDugram.Core.csproj"
+              "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDugram.Core\\BDugram.Core.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDugram.Core\\BDugram.Core.csproj"
               },
-              "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram.DAL\\BDUgram.DAL.csproj": {
-                "projectPath": "C:\\Users\\ll novbe\\Desktop\\BDUgram\\BDUgram.DAL\\BDUgram.DAL.csproj"
+              "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram.DAL\\BDUgram.DAL.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\BDUgram\\BDUgram\\BDUgram.DAL\\BDUgram.DAL.csproj"
               }
             }
           }
@@ -315,6 +334,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -377,7 +401,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -310,3 +310,6 @@ C:\Users\ll novbe\Desktop\BDUgram\BDUgram\obj\Debug\net8.0\refint\BDUgram.dll
 C:\Users\ll novbe\Desktop\BDUgram\BDUgram\obj\Debug\net8.0\BDUgram.pdb
 C:\Users\ll novbe\Desktop\BDUgram\BDUgram\obj\Debug\net8.0\BDUgram.genruntimeconfig.cache
 C:\Users\ll novbe\Desktop\BDUgram\BDUgram\obj\Debug\net8.0\ref\BDUgram.dll
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram\obj\Debug\net8.0\BDUgram.dll
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram\obj\Debug\net8.0\refint\BDUgram.dll
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram\obj\Debug\net8.0\BDUgram.pdb

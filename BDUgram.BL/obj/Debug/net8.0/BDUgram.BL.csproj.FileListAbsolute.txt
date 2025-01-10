@@ -38,3 +38,6 @@ C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\refint\BDUgram.BL.
 C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.pdb
 C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.genruntimeconfig.cache
 C:\Users\ll novbe\Desktop\BDUgram\BDUgram.BL\obj\Debug\net8.0\ref\BDUgram.BL.dll
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.dll
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.BL\obj\Debug\net8.0\refint\BDUgram.BL.dll
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.BL\obj\Debug\net8.0\BDUgram.BL.pdb

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BDugram.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+678f07f71b1a5f70cae3847317fb02eaa69d64f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae0a8afe313fb5bcaccfcbcd75e20c9ccf319bbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("BDugram.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BDugram.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

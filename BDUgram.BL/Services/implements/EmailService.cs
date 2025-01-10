@@ -12,7 +12,7 @@ namespace BDUgram.BL.Services.implements
     public class EmailService : IEmailService
     {
 
-        public void EmailConfirmation(string emailadress, string name)
+        public void SendEmail(string emailadress, string name)
         {
             SmtpClient smtp = new();
             smtp.Host = "smtp.gmail.com";

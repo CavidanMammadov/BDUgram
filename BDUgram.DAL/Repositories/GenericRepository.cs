@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -26,7 +27,7 @@ namespace BDUgram.DAL.Repositories
             => await Table.FindAsync(); 
         
 
-        public IQueryable<T> GetWhere(Func<T, bool> expression)
+        public IQueryable<T> GetWhere(Expression<Func<T, bool>> expression)
        => Table.Where(expression).AsQueryable();
 
         public async Task<bool> IsExistAsync(int id)

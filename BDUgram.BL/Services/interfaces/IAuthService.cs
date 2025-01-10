@@ -11,6 +11,7 @@ namespace BDUgram.BL.Services.interfaces
     {
         Task<string> LoginAsync(LoginDto dto);
         Task RegisterAsync(RegisterDTO dto);
-        Task<int> SendVerificationEmailAsync(string email);
+       Task<int> SendVerificationEmailAsync(string email);
+        public Task<bool> VerifyAccount(string email, int code);
     }
 }
