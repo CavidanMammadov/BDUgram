@@ -43,3 +43,12 @@ C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.
 C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.dll
 C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\refint\BDUgram.DAL.dll
 C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.pdb
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\bin\Debug\net8.0\BDUgram.DAL.deps.json
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\bin\Debug\net8.0\BDUgram.DAL.runtimeconfig.json
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\bin\Debug\net8.0\BDUgram.DAL.dll
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\bin\Debug\net8.0\BDUgram.DAL.pdb
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\bin\Debug\net8.0\BDugram.Core.dll
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\bin\Debug\net8.0\BDugram.Core.pdb
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram..FA640B87.Up2Date
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\BDUgram.DAL.genruntimeconfig.cache
+C:\Users\user\source\repos\BDUgram\BDUgram\BDUgram.DAL\obj\Debug\net8.0\ref\BDUgram.DAL.dll

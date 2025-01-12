@@ -3,6 +3,9 @@ using BDUgram.BL.Services.interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Microsoft.Identity.Client;
+using BDUgram.BL.ExternalSerives.Implements;
+using BDUgram.BL.ExternalSerives.Abstracts;
 
 
 namespace BDUgram.BL
@@ -15,6 +18,12 @@ namespace BDUgram.BL
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<ITokenHandler, TokenHandler>();
+            services.AddScoped<IBlogService, BlogService>();
+
+
+
+            services.AddHttpContextAccessor();
             services.AddMemoryCache();
             return services;
         }

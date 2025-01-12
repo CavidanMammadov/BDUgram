@@ -15,12 +15,13 @@ namespace BDugram.Core.Entities
         public string Password { get; set; }
         public string? Image { get; set; }
         public bool isMale { get; set; }
+        public bool IsVerified { get; set; }
         public string PasswordHash { get; set; }
-        public int Role { get; set; } = 2;
+        public int Role { get; set; } = (int)Roles.Viewer;
         public bool IsBanned { get; set; }
         public DateTime?  UnlockTime { get; set; }
-        public  bool IsRegistered { get; set; } = false;
-       
+        public IEnumerable<Blog> Blogs { get; set; }
+
 
     }
 }

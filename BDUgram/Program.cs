@@ -2,9 +2,13 @@
 using BDUgram.BL;
 using BDUgram.DAL;
 using BDUgram.DAL.Context;
+using Microsoft.AspNetCore.Authentication.BearerToken;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Text;
 
 namespace BDUgram
 {
@@ -17,6 +21,8 @@ namespace BDUgram
             // Add services to the container.
 
             builder.Services.AddControllers();
+            //    .AddNewtonsoftJson(options =>
+            //options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(opt =>
@@ -49,8 +55,7 @@ namespace BDUgram
                     opt.UseSqlServer(
                         builder.Configuration.GetConnectionString("MSSql"));
                 });
-            builder.Services.AddAuth(builder.Configuration);
-            builder.Services.AddJwtOptions(builder.Configuration);
+            builder.Services.AddJwt(builder.Configuration);
             builder.Services.AddHttpContextAccessor();
             builder.Services.AddRepositories();
             builder.Services.AddServices();

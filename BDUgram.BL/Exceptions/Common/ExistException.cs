@@ -24,6 +24,6 @@ namespace BDUgram.BL.Exceptions.Common
         }
         
             
-        }
+    }
 }
 

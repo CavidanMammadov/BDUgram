@@ -16,6 +16,7 @@ namespace BDUgram.BL.Profiles
         {
             CreateMap<RegisterDTO, User>()
                 .ForMember(x => x.PasswordHash, x => x.MapFrom(y => HashHelper.HashPassword(y.Password)));
+            CreateMap<User, UserNestedGetDto>();
         }
     }
 }

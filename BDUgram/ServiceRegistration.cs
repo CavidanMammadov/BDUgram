@@ -7,40 +7,31 @@ namespace BDUgram
 {
     public static class ServiceRegistration
     {
-        public static IServiceCollection AddJwtOptions(this IServiceCollection services, IConfiguration Configuration)
+    
+
+        public static IServiceCollection AddJwt(this IServiceCollection services , IConfiguration configuration)
         {
-            services.Configure<BL.DTOs.Options.JwtOptions>(Configuration.GetSection(BL.DTOs.Options.JwtOptions.Jwt));
-            return services;
-        }
-
-
-
-        public static IServiceCollection AddAuth(this IServiceCollection services, IConfiguration Configuration)
-        {
-            JwtOptions JwtOpt = new JwtOptions();
-            JwtOpt.Issuer = Configuration.GetSection("JwtOptions")["Issuer"]!;
-            JwtOpt.Audience = Configuration.GetSection("JwtOptions")["Audience"]!;
-            JwtOpt.SecretKey = Configuration.GetSection("JwtOptions")["SecretKey"]!;
-            var SignInKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(JwtOpt.SecretKey));
-
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(opt =>
+            services.AddAuthentication(opt =>
+            {
+                opt.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+                opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(x =>
+            {
+                var SecKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:SecretKey"]!));
+                x.TokenValidationParameters = new()
                 {
-                    opt.TokenValidationParameters = new TokenValidationParameters
-                    {
-                        ValidateIssuer = true,
-                        ValidateAudience = true,
-                        ValidateLifetime = true,
-                        ValidateIssuerSigningKey = true,
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = configuration["Jwt:Issuer"],
+                    ValidAudience =configuration["Jwt:Audience"],
+                    IssuerSigningKey = SecKey
+                };
 
-                        IssuerSigningKey = SignInKey,
-                        ValidAudience = JwtOpt.Audience,
-                        ValidIssuer = JwtOpt.Issuer,
-                        ClockSkew = TimeSpan.Zero,
-                    };
-
-                });
+            });
             return services;
+
         }
     }
 }

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BDUgram.DAL.Migrations
 {
     [DbContext(typeof(BdugramDbContext))]
-    [Migration("20250109103248_addedAllTables")]
+    [Migration("20250110194845_addedAllTables")]
     partial class addedAllTables
     {
         /// <inheritdoc />
@@ -90,7 +90,7 @@ namespace BDUgram.DAL.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("IsRegistered")
+                    b.Property<bool>("IsVerified")
                         .HasColumnType("bit");
 
                     b.Property<string>("Password")

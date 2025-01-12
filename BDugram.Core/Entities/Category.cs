@@ -11,5 +11,6 @@ namespace BDugram.Core.Entities
     {
         public string  Name { get; set; } = null!;
         public string  Icon { get; set; }
+        public IEnumerable<Blog> Blogs { get; set; }
     }
 }   

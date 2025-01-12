@@ -16,6 +16,7 @@ namespace BDUgram.DAL
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IBlogRepository, BlogRepository>();
             return services;
         }
     }

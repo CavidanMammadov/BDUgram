@@ -15,25 +15,17 @@ namespace BDUgram.DAL.Repositories
     {
         readonly HttpContext _httpContext;
        readonly BdugramDbContext _context;
-        public UserRepository(BdugramDbContext context ,IHttpContextAccessor httpContext) : base(context)
+        public UserRepository(BdugramDbContext context ,IHttpContextAccessor http) : base(context ,http)
         {
             _context = context;
-            _httpContext = httpContext.HttpContext;
+            _httpContext = http.HttpContext;
         }
         public async Task<User?> GetUserByUserNameAsync(string username)
         {
             return await _context.Users.Where(x => x.UserName == username).FirstOrDefaultAsync();
         }
 
-        public User GetCurrentUser()
-        {
-            throw new NotImplementedException();
-        }
-
-        public int GetCurrentUserId()
-        {
-            throw new NotImplementedException();
-        }
+        
 
 
     }

@@ -9,8 +9,7 @@ namespace BDugram.Core.Repositories
 {
     public  interface IUserRepository :IGenericRepository<User>
     {
-        User GetCurrentUser ();
-        int GetCurrentUserId();
-        Task<User> GetUserByUserNameAsync(string username); 
+       
+        Task<User?> GetUserByUserNameAsync(string username); 
     }
 }

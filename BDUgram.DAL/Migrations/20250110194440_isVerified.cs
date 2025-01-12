@@ -5,7 +5,7 @@
 namespace BDUgram.DAL.Migrations
 {
     /// <inheritdoc />
-    public partial class AddRegisteredTable : Migration
+    public partial class isVerified : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
